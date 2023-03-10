@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.2.0",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "name": "holyflop-launcher",
+    "preductname": "HolyFlop Launcher",
+    "version": "0.0.1",
+    "description": "Launcher Mincraft custom for HolyFlop",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://craftdium.ml/launcherSelvania",
+    "author": "Luuxis, Ylanouh",
+    "url": "http://localhost/HolyFlop-Launcher-WEB-Folder",
     "engines": {
         "node": "^18.x.x"
     },
@@ -25,12 +25,12 @@
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "electron": "^20.0.0",
-        "electron-builder": "^23.0.3",
-        "nodemon": "^2.0.16"
+        "electron": "^20.3.12",
+        "electron-builder": "^23.6.0",
+        "nodemon": "^2.0.21"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Ylanouh/HollyFlop-Launcher"
     }
 }

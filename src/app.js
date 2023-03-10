@@ -17,7 +17,7 @@ let data
 let dev = process.env.NODE_ENV === 'dev';
 
 if (dev) {
-    let appPath = path.resolve('./AppData/Launcher').replace(/\\/g, '/');
+    let appPath = path.resolve('./AppData/holyflop').replace(/\\/g, '/');
     if (!fs.existsSync(appPath)) fs.mkdirSync(appPath, { recursive: true });
     app.setPath('userData', appPath);
 }
